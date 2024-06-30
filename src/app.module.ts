@@ -4,6 +4,7 @@ import {DatabaseModule} from "./core/database/database.module";
 import { UserModule } from './user/user.module';
 import { FlowModule } from './flow/flow.module';
 import { SegmentModule } from './segment/segment.module';
+import { PhoneModule } from './phone/phone.module';
 
 @Module({
     imports: [
@@ -13,7 +14,8 @@ import { SegmentModule } from './segment/segment.module';
         DatabaseModule,
         UserModule,
         FlowModule,
-        SegmentModule
+        SegmentModule,
+        PhoneModule
     ]
 })
 export class AppModule {

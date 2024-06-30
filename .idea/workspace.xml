@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef0b5f5-5bfa-4877-b237-db8682dd0a4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/flow/dtos/create-or-edit-flow-dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flow/dtos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flow/flow.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segment/dtos/create-segment.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segment/dtos/edit-segment.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segment/dtos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segment/segment.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phone/dtos/create-or-edit-phone.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phone/dtos/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phone/phone.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/database/database.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/database/database.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flow/flow.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/flow/flow.entity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719736597996</updated>
-      <workItem from="1719736599347" duration="9809000" />
+      <workItem from="1719736599347" duration="11751000" />
     </task>
     <servers />
   </component>
