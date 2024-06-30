@@ -2,6 +2,8 @@ import {TypeOrmModuleOptions, TypeOrmOptionsFactory} from "@nestjs/typeorm";
 import {ConfigService} from "@nestjs/config";
 import {Injectable} from "@nestjs/common";
 import {UserEntity} from "../../user/user.entity";
+import {FlowEntity} from "../../flow/flow.entity";
+import {SegmentEntity} from "../../segment/segment.entity";
 
 @Injectable()
 export class DatabaseService implements TypeOrmOptionsFactory {
@@ -18,7 +20,7 @@ export class DatabaseService implements TypeOrmOptionsFactory {
             host: this.configService.get<string>("DB_HOST"),
             synchronize: true,
             autoLoadEntities: true,
-            entities: [UserEntity]
+            entities: [UserEntity, SegmentEntity, FlowEntity]
         }
     }
 }
