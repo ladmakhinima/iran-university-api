@@ -5,6 +5,7 @@ import { UserModule } from './user/user.module';
 import { FlowModule } from './flow/flow.module';
 import { SegmentModule } from './segment/segment.module';
 import { PhoneModule } from './phone/phone.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
     imports: [
@@ -15,7 +16,8 @@ import { PhoneModule } from './phone/phone.module';
         UserModule,
         FlowModule,
         SegmentModule,
-        PhoneModule
+        PhoneModule,
+        AuthModule
     ]
 })
 export class AppModule {

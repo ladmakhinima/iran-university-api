@@ -28,6 +28,14 @@ export class UserService {
         return user.save();
     }
 
+    async findUserByEmail(email: string) {
+        const user = await UserEntity.findOneBy({email});
+        if (!user) {
+            throw new NotFoundException("کاربری با این آدرس ایمیل یافت نشد");
+        }
+        return user;
+    }
+
     async editUser(id: number, dto: EditUserDTO) {
         const user = await UserEntity.findOneBy({id});
         if (!user) {

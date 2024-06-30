@@ -40,7 +40,7 @@ export class SegmentService {
         return SegmentEntity.find({where: {parent: IsNull()}});
     }
 
-    getSegmentsTree() {
+    getClientSegmentsTree() {
         return this.dataSource.getTreeRepository(SegmentEntity).findTrees();
     }
 

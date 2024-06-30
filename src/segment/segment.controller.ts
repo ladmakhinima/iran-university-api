@@ -21,9 +21,9 @@ export class SegmentController {
         return this.segmentService.getSegmentsWithPage(+page, +limit);
     }
 
-    @Get("tree")
-    getSegmentsTrees() {
-        return this.segmentService.getSegmentsTree();
+    @Get("client")
+    getClientSegmentsTree() {
+        return this.segmentService.getClientSegmentsTree();
     }
 
     @Get()
