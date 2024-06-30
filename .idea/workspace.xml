@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef0b5f5-5bfa-4877-b237-db8682dd0a4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/auth/dtos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/dtos/login.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/admin.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/dtos/admin-update-password.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phone/phone.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone/phone.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phone/phone.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone/phone.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segment/segment.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/segment/segment.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segment/segment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/segment/segment.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/dtos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/dtos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/dtos/login.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/dtos/login.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/database/database.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/database/database.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,11 @@
     "ts.external.directory.path": "C:\\Users\\Asus\\OneDrive\\Desktop\\api-118\\node_modules\\typescript\\lib"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\OneDrive\Desktop\api-118\src\auth" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719736597996</updated>
-      <workItem from="1719736599347" duration="13385000" />
+      <workItem from="1719736599347" duration="14275000" />
     </task>
     <servers />
   </component>

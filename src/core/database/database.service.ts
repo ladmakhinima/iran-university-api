@@ -5,6 +5,7 @@ import {UserEntity} from "../../user/user.entity";
 import {FlowEntity} from "../../flow/flow.entity";
 import {SegmentEntity} from "../../segment/segment.entity";
 import {PhoneEntity} from "../../phone/phone.entity";
+import {AdminEntity} from "../../auth/admin.entity";
 
 @Injectable()
 export class DatabaseService implements TypeOrmOptionsFactory {
@@ -21,7 +22,7 @@ export class DatabaseService implements TypeOrmOptionsFactory {
             host: this.configService.get<string>("DB_HOST"),
             synchronize: true,
             autoLoadEntities: true,
-            entities: [UserEntity, SegmentEntity, PhoneEntity, FlowEntity]
+            entities: [UserEntity, SegmentEntity, PhoneEntity, AdminEntity, FlowEntity]
         }
     }
 }
