@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bef0b5f5-5bfa-4877-b237-db8682dd0a4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-118.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/database/core.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/database/database.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/database/database.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/dtos/change-user-status.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/dtos/edit-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/dtos/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/dtos/register-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/user.entity.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ialVzOmKrCr7ap0OAxdQd7zXwK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Asus\\OneDrive\\Desktop\\api-118\\node_modules\\prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Asus\\OneDrive\\Desktop\\api-118\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bef0b5f5-5bfa-4877-b237-db8682dd0a4b" name="Changes" comment="" />
+      <created>1719736597996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719736597996</updated>
+      <workItem from="1719736599347" duration="6388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
